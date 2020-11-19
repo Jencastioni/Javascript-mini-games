@@ -1,0 +1,32 @@
+.square {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: black;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 618px;
+  height: 618px;
+  margin: 0 auto;
+}
+
+.mole {
+  background-image: url('mole.jpg');
+  background-size: cover;
+}
+
+body {
+  /* background-color: rgb(226,131,44); */
+  background-color: rgb(155, 212, 55);
+  margin: 0 auto;
+}
+
+h1,h2 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
