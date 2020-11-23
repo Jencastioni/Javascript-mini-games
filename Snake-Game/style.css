@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+  }
+
+  #game-board {
+    background-color: rgb(192, 224, 141);
+    width: 100vmin;
+    height: 100vmin;
+    display: grid;
+    /* 21 columnns and rows. need 21 even squares */
+    /* grid is built in, all rows are the exact same with 1fr (1 fraction) */
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+  }
+
+  .snake {
+    background-color: rgb(37, 175, 18);
+    border: .25vmin solid black;
+  }
+
+  .food {
+    background-color: rgb(234, 145, 72);
+    border: .25vmin solid black;
+  }
